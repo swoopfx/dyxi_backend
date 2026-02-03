@@ -20,6 +20,10 @@ class AuthenticatonService(Service):
         # Implement authentication logic here
         return True
     
+    
+    
+    
+    
     def phase_one_register(self, email: str) -> str:
         """Phase one of registration, 
         used to hydrate the user email
@@ -33,6 +37,9 @@ class AuthenticatonService(Service):
         """
         # Implement phase one registration logic here
         return "phase_one_token"
+    
+    
+    
         
     def register_user(self, user_data: dict) -> dict:
         """Registers the user 
@@ -46,6 +53,9 @@ class AuthenticatonService(Service):
         # Implement user registration logic here
         return {}
     
+    
+    
+    
     def encrypt_password(self, password: str) -> str:
         """Used to encrypt the ppassword
 
@@ -57,6 +67,8 @@ class AuthenticatonService(Service):
         """
         # Implement password encryption logic here
         return pwd_context.hash(password)
+    
+    
     
     def verify_password(self, plain_password: str, hashed_password: str) -> bool:
         """used to verify the password

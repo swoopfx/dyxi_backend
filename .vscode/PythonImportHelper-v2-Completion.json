@@ -290,6 +290,14 @@
         "documentation": {}
     },
     {
+        "label": "factory_config",
+        "importPath": "config.factory_config",
+        "description": "config.factory_config",
+        "isExtraImport": true,
+        "detail": "config.factory_config",
+        "documentation": {}
+    },
+    {
         "label": "CORSMiddleware",
         "importPath": "fastapi.middleware.cors",
         "description": "fastapi.middleware.cors",
@@ -320,6 +328,15 @@
         "description": "routers",
         "isExtraImport": true,
         "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "factory_config",
+        "kind": 5,
+        "importPath": "config.factory_config",
+        "description": "config.factory_config",
+        "peekOfCode": "factory_config = {\n    \"services_name\": {\n        \"GeneralService\": \"general\",\n        \"AuthenticatonService\": \"authentication\"\n    }\n}",
+        "detail": "config.factory_config",
         "documentation": {}
     },
     {
@@ -453,7 +470,7 @@
         "kind": 6,
         "importPath": "services.service_factory",
         "description": "services.service_factory",
-        "peekOfCode": "class ServiceFactory:\n    @staticmethod\n    def create_service(service_type: str) -> Service:\n        if service_type == \"general\":\n            return GeneralService()\n        elif service_type == \"authentication\":\n            return AuthenticatonService()\n        # Add more service types as needed\n        raise ValueError(f\"Unknown service type: {service_type}\")",
+        "peekOfCode": "class ServiceFactory:\n    @staticmethod\n    def create_service(service_type: str) -> Service:\n        if service_type == factory_config[\"services_name\"][\"GeneralService\"]:\n            return GeneralService()\n        elif service_type == factory_config[\"services_name\"][\"AuthenticatonService\"]:\n            return AuthenticatonService()\n        # Add more service types as needed\n        raise ValueError(f\"Unknown service type: {service_type}\")",
         "detail": "services.service_factory",
         "documentation": {}
     },
