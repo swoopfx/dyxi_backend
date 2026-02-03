@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
+from routers import auth, machine
 
 app = FastAPI()
 
@@ -13,18 +14,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+app.include_router(auth.router)
+app.include_router(machine.router)
+
 @app.get("/")
 def read_root():
     return {"message": "Hello, World!"}
 
-
-@app.post("/login")
-def login():
-    return {"message": "Login endpoint"}
-
-@app.post("/register")
-def register():
-    return {"message": "Register endpoint"}
 
 @app.get("/items/{item_id}")
 def read_item(item_id: int, q: str = None):

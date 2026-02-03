@@ -1,0 +1,396 @@
+[
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "create_item",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "user",
+        "description": "user",
+        "detail": "user",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterSchema",
+        "importPath": "schemas.registerSchema",
+        "description": "schemas.registerSchema",
+        "isExtraImport": true,
+        "detail": "schemas.registerSchema",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "starlette.responses",
+        "description": "starlette.responses",
+        "isExtraImport": true,
+        "detail": "starlette.responses",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "starlette",
+        "description": "starlette",
+        "isExtraImport": true,
+        "detail": "starlette",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "uvicorn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uvicorn",
+        "description": "uvicorn",
+        "detail": "uvicorn",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "machine",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "Roles",
+        "kind": 6,
+        "importPath": "models.roles",
+        "description": "models.roles",
+        "peekOfCode": "class Roles(Base):\n    \"\"\"\n    The Role model mirror of the database\n    Returns:\n        _type_: _description_\n    Attributes:\n            id (int): Primary key, auto-incremented role ID.\n            name (str): Name of the role.\n            description (str): Description of the role.\n    \"\"\"",
+        "detail": "models.roles",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "models.roles",
+        "description": "models.roles",
+        "peekOfCode": "Base = declarative_base()\nclass Roles(Base):\n    \"\"\"\n    The Role model mirror of the database\n    Returns:\n        _type_: _description_\n    Attributes:\n            id (int): Primary key, auto-incremented role ID.\n            name (str): Name of the role.\n            description (str): Description of the role.",
+        "detail": "models.roles",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "models.user",
+        "description": "models.user",
+        "peekOfCode": "class User(Base):\n    \"\"\"\n    The User model mirror of the database\n    Returns:\n        _type_: _description_\n    Attributes:\n            id (int): Primary key, auto-incremented user ID.\n            username (str): Unique username for the user.\n            email (str): Unique email address for the user.\n            full_name (str): Full name of the user.",
+        "detail": "models.user",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "models.user",
+        "description": "models.user",
+        "peekOfCode": "Base = declarative_base()\nclass User(Base):\n    \"\"\"\n    The User model mirror of the database\n    Returns:\n        _type_: _description_\n    Attributes:\n            id (int): Primary key, auto-incremented user ID.\n            username (str): Unique username for the user.\n            email (str): Unique email address for the user.",
+        "detail": "models.user",
+        "documentation": {}
+    },
+    {
+        "label": "Ward",
+        "kind": 6,
+        "importPath": "models.ward",
+        "description": "models.ward",
+        "peekOfCode": "class Ward(Base):\n    \"\"\"\n    The Ward model mirror of the database\n    Returns:\n        _type_: _description_\n    Attributes:\n            id (int): Primary key, auto-incremented ward ID.\n            name (str): Name of the ward.\n            location (str): Location of the ward.\n            capacity (int): Capacity of the ward.",
+        "detail": "models.ward",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "models.ward",
+        "description": "models.ward",
+        "peekOfCode": "Base = declarative_base()\nclass Ward(Base):\n    \"\"\"\n    The Ward model mirror of the database\n    Returns:\n        _type_: _description_\n    Attributes:\n            id (int): Primary key, auto-incremented ward ID.\n            name (str): Name of the ward.\n            location (str): Location of the ward.",
+        "detail": "models.ward",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "routers.auth",
+        "description": "routers.auth",
+        "peekOfCode": "router = APIRouter(prefix=\"/auth\", tags=[\"Auth\"])\n@router.post(\"/login\")\nasync def login():\n    return {\"message\": \"Login endpoint\"}    \n@router.post(\"/register\",status_code=status.HTTP_201_CREATED)\nasync def register(register_request: RegisterSchema):\n    pass\n@router.post(\"/logout\")\nasync def logout():\n    return {\"message\": \"Logout endpoint\"}   ",
+        "detail": "routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "routers.machine",
+        "description": "routers.machine",
+        "peekOfCode": "router = APIRouter(prefix=\"/machine\", tags=[\"Machine\"])\n@router.post(\"/visual-tracking\")\nasync def visual_tracking():\n    return {}",
+        "detail": "routers.machine",
+        "documentation": {}
+    },
+    {
+        "label": "LoginSchema",
+        "kind": 6,
+        "importPath": "schemas.loginSchema",
+        "description": "schemas.loginSchema",
+        "peekOfCode": "class LoginSchema(BaseModel):\n    username: str = Field(..., min_length=3, max_length=50)\n    password: str = Field(..., min_length=8)",
+        "detail": "schemas.loginSchema",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterSchema",
+        "kind": 6,
+        "importPath": "schemas.registerSchema",
+        "description": "schemas.registerSchema",
+        "peekOfCode": "class RegisterSchema(BaseModel):\n    username: str = Field(..., min_length=3, max_length=50)\n    email: str = Field(... )\n    #regex=r'^[\\w\\.-]+@[\\w\\.-]+\\.\\w{2,4}$')\n    password: str = Field(..., min_length=8)\n    role: int = Field(..., ge=0, le=1)  # 0: regular user, 1: admin",
+        "detail": "schemas.registerSchema",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticatonService",
+        "kind": 6,
+        "importPath": "services.auth.authentication_service",
+        "description": "services.auth.authentication_service",
+        "peekOfCode": "class AuthenticatonService:\n    def authenticate(self, username: str, password: str) -> bool:\n        # Implement authentication logic here\n        return True\n    def register_user(self, username: str, email: str, password: str, role: int) -> dict:\n        # Implement user registration logic here\n        return {}\n    def encrypt_password(self, password: str) -> str:\n        # Implement password encryption logic here\n        return \"\"",
+        "detail": "services.auth.authentication_service",
+        "documentation": {}
+    },
+    {
+        "label": "read_root",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def read_root():\n    return {\"message\": \"Hello, World!\"}\n@app.get(\"/items/{item_id}\")\ndef read_item(item_id: int, q: str = None):\n    return {\"item_id\": item_id, \"q\": q}\n@app.post(\"/items/\")\ndef create_item(item: dict):\n    return {\"created\": item}\nif __name__ == \"__main__\":\n    uvicorn.run(app, host=\"0.0.0.0\", port=8000)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "read_item",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def read_item(item_id: int, q: str = None):\n    return {\"item_id\": item_id, \"q\": q}\n@app.post(\"/items/\")\ndef create_item(item: dict):\n    return {\"created\": item}\nif __name__ == \"__main__\":\n    uvicorn.run(app, host=\"0.0.0.0\", port=8000)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "create_item",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def create_item(item: dict):\n    return {\"created\": item}\nif __name__ == \"__main__\":\n    uvicorn.run(app, host=\"0.0.0.0\", port=8000)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = FastAPI()\n# Add CORS middleware\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\napp.include_router(auth.router)",
+        "detail": "main",
+        "documentation": {}
+    }
+]
