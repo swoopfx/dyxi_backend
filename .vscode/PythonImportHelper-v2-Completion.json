@@ -1,5 +1,57 @@
 [
     {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "pformat",
+        "importPath": "pprint",
+        "description": "pprint",
+        "isExtraImport": true,
+        "detail": "pprint",
+        "documentation": {}
+    },
+    {
+        "label": "jmespath",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jmespath",
+        "description": "jmespath",
+        "detail": "jmespath",
+        "documentation": {}
+    },
+    {
+        "label": "exceptions",
+        "importPath": "jmespath",
+        "description": "jmespath",
+        "isExtraImport": true,
+        "detail": "jmespath",
+        "documentation": {}
+    },
+    {
         "label": "Column",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -258,6 +310,14 @@
         "documentation": {}
     },
     {
+        "label": "Service",
+        "importPath": "services.service",
+        "description": "services.service",
+        "isExtraImport": true,
+        "detail": "services.service",
+        "documentation": {}
+    },
+    {
         "label": "ABC",
         "importPath": "abc",
         "description": "abc",
@@ -337,6 +397,15 @@
         "description": "config.factory_config",
         "peekOfCode": "factory_config = {\n    \"services_name\": {\n        \"GeneralService\": \"general\",\n        \"AuthenticatonService\": \"authentication\"\n    }\n}",
         "detail": "config.factory_config",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "fastenv.bin.jp",
+        "description": "fastenv.bin.jp",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser()\n    parser.add_argument('expression')\n    parser.add_argument('-f', '--filename',\n                        help=('The filename containing the input data.  '\n                              'If a filename is not given then data is '\n                              'read from stdin.'))\n    parser.add_argument('--ast', action='store_true',\n                        help=('Pretty print the AST, do not search the data.'))\n    args = parser.parse_args()",
+        "detail": "fastenv.bin.jp",
         "documentation": {}
     },
     {
@@ -448,6 +517,15 @@
         "documentation": {}
     },
     {
+        "label": "JwtService",
+        "kind": 6,
+        "importPath": "services.auth.jwt_service",
+        "description": "services.auth.jwt_service",
+        "peekOfCode": "class JwtService(Service):\n    def __init__(self) -> None:\n        pass\n    \"\"\"\n    Docstring for JwtService\n    Service to handle JWT token generation and validation.\n    \"\"\"\n    def generate_token(self, user_id: str) -> str:\n        \"\"\"Generates a JWT token for the given user ID.\n        Args:",
+        "detail": "services.auth.jwt_service",
+        "documentation": {}
+    },
+    {
         "label": "GeneralService",
         "kind": 6,
         "importPath": "services.general.general_service",
@@ -479,7 +557,7 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def read_root():\n    return {\"message\": \"Hello, World!\"}\n@app.get(\"/items/{item_id}\")\ndef read_item(item_id: int, q: str = None):\n    return {\"item_id\": item_id, \"q\": q}\n@app.post(\"/items/\")\ndef create_item(item: dict):\n    return {\"created\": item}\nif __name__ == \"__main__\":\n    uvicorn.run(app, host=\"0.0.0.0\", port=8000)",
+        "peekOfCode": "def read_root():\n    return {\"message\": \"Hello, World!\"}\n@app.get(\"/items/{item_id}\")\ndef read_item(item_id: int, q: str = None): # type: ignore\n    return {\"item_id\": item_id, \"q\": q}\n@app.post(\"/items/\")\ndef create_item(item: dict):\n    return {\"created\": item}\nif __name__ == \"__main__\":\n    uvicorn.run(app, host=\"0.0.0.0\", port=8000)",
         "detail": "main",
         "documentation": {}
     },
@@ -488,7 +566,7 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def read_item(item_id: int, q: str = None):\n    return {\"item_id\": item_id, \"q\": q}\n@app.post(\"/items/\")\ndef create_item(item: dict):\n    return {\"created\": item}\nif __name__ == \"__main__\":\n    uvicorn.run(app, host=\"0.0.0.0\", port=8000)",
+        "peekOfCode": "def read_item(item_id: int, q: str = None): # type: ignore\n    return {\"item_id\": item_id, \"q\": q}\n@app.post(\"/items/\")\ndef create_item(item: dict):\n    return {\"created\": item}\nif __name__ == \"__main__\":\n    uvicorn.run(app, host=\"0.0.0.0\", port=8000)",
         "detail": "main",
         "documentation": {}
     },

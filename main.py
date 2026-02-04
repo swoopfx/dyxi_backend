@@ -23,7 +23,7 @@ def read_root():
 
 
 @app.get("/items/{item_id}")
-def read_item(item_id: int, q: str = None):
+def read_item(item_id: int, q: str = None): # type: ignore
     return {"item_id": item_id, "q": q}
 
 @app.post("/items/")
